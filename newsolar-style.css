@@ -1,28 +1,31 @@
-.header {
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
-  }
-
-
-/* The navbar container */
-.topnav {
+/* nagivation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(1, 78, 130);
+    display:flex;
+    justify-content: center;
 }
-  
-/* Navbar links */
-.topnav a {
+
+li {
     float: left;
-    display: block;
-    color: #f2f2f2;
+}
+
+li a {
+    float: left;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 50px;
     text-decoration: none;
 }
-  
-/* Links - change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+
+li a:hover:not(.active) {
+    background-color: rgb(0,104,161);
+}
+
+.active {
+    background-color: rgb(255,255,255);
+    color:rgb(0,0,0);
 }

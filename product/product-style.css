@@ -1,42 +1,33 @@
 * {
     box-sizing: border-box;
-  }
+}
   
-  .menu {
+.menu {
     float: left;
     width: 20%;
     text-align: center;
     background-color: #e5e5e5;
-  }
+}
   
-  .menu a {
+.menu a {
     padding: 8px;
     margin-top: 7px;
     display: block;
     width: 100%;
     color: black;
-  }
+}
   
-  .main {
+.main {
     float: left;
     width: 80%;
-    padding: 0 20px;
-  }
+    padding: 1px 0px;
+}
   
-  @media only screen and (max-width: 620px) {
+@media only screen and (max-width: 620px) {
     /* For mobile phones: */
     .menu, .main{
-      width: 100%;
+        width: 100%;
     }
-  }
-
-
-
-
-
-
-body {
-
 }
 
 .menu .button {
@@ -57,20 +48,67 @@ body {
     color: white;
 }
 
-.menu .title-button {
-    background-color: rgb(0, 0, 0);
-    border: 1px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    width: 100%;
-    display: block;
+
+
+
+
+
+/* nagivation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1, 78, 130);
+    display: flex;
+    justify-content: center;
 }
 
-.menu .button:hover {
-    background-color: rgb(0,104,161);
-    color: white;
+li {
+    float: left;
 }
+
+li a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(0,104,161);
+}
+
+.active {
+    background-color: rgb(255,255,255);
+    color:rgb(0,0,0);
+}
+
+
+
+
+
+
+
+
+/* ul.nav {
+    padding-left: 0px;
+    background-color: #3D99CE;
+    text-align: center;
+  }
+  ul.nav > li {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  ul.nav > li:hover {
+    background-color: #2779BF;
+  }
+  ul.nav > li > a {
+    color: white;
+    text-decoration: none;
+  } */
+
+/* body */
+
+
