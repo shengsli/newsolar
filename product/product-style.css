@@ -72,7 +72,7 @@ li a {
     float: left;
     color: white;
     text-align: center;
-    padding: 14px 50px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -84,31 +84,3 @@ li a:hover:not(.active) {
     background-color: rgb(255,255,255);
     color:rgb(0,0,0);
 }
-
-
-
-
-
-
-
-
-/* ul.nav {
-    padding-left: 0px;
-    background-color: #3D99CE;
-    text-align: center;
-  }
-  ul.nav > li {
-    display: inline-block;
-    padding: 10px 20px;
-  }
-  ul.nav > li:hover {
-    background-color: #2779BF;
-  }
-  ul.nav > li > a {
-    color: white;
-    text-decoration: none;
-  } */
-
-/* body */
-
-
